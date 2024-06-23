@@ -1,0 +1,98 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+}
+
+.navbar-primary {
+  background: #0066aa !important;
+}
+
+.navbar-menu-link {
+  font-weight: 500;
+  color: aliceblue;
+  margin: 0 7px 0 3px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu-link:hover {
+  color: #d2cf0c;
+}
+
+.app {
+  background: #f3f3f3;
+  min-height: 100vh;
+}
+
+.app-interno {
+  display: flex;
+  justify-content: end;
+}
+
+.app-interno-menu {
+  padding-top: 40px;
+  background: aliceblue;
+  min-height: 100vh;
+  position: fixed;
+  left: 0px;
+  top: 40px;
+  padding-top: 1px;
+}
+
+.app-interno-conteudo {
+  padding-top: 40px;
+  background: #f3f3f3;
+  min-height: 100vh;
+  position: relative;
+}
+.titulo {
+  position: fixed;
+  top: 40px;
+  width: 100%;
+  padding: 10px 0 0 20px;
+  color: #0066aa;
+  background: #f3f3f3;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.conteudo {
+  margin-top: 45px;
+  border-radius: 10px;
+  background: aliceblue;
+  min-height: 100vh;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .app-interno {
+    position: relative;
+  }
+
+  .app-interno-menu {
+    min-height: auto;
+    padding: 10px 15px;
+    background: red;
+    margin: 0;
+    position: fixed;
+    top: 40px;
+    z-index: 10;
+  }
+
+  .app-interno-conteudo {
+    margin-top: 100px;
+    padding-top: 0;
+  }
+
+  .conteudo {
+    margin: 0;
+  }
+
+  .titulo {
+    display: none;
+  }
+}
