@@ -24,12 +24,12 @@ function CollapsibleExample() {
       // variant="dark"
     >
       <Container fluid className="text-light">
-        <Navbar.Brand href="#" className="text-light me-5 ms-2 ">
+        <Navbar.Brand href="#" className="text-light me-5 ms-5 ">
           Sistema Odonto
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto ms-3">
             <Link className="nav-link navbar-menu-link" href="/gestao">
               <HiOutlineChartBar className="me-2" />
               Gestão
@@ -44,7 +44,10 @@ function CollapsibleExample() {
               Pacientes
             </Link>
 
-            <Link className="nav-link navbar-menu-link" href="/paciente">
+            <Link
+              className="nav-link navbar-menu-link"
+              href="/paciente/principal"
+            >
               <HiOutlineUser className="me-2" />
               Paciente...
             </Link>

@@ -1,0 +1,64 @@
+.menu-paciente-titulo {
+  text-align: center;
+  margin: 20px auto 5px auto;
+  padding: 15px 0 10px 0;
+  /* background: #f9f9f9; */
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.menu-paciente-titulo h6 {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.menu-paciente-titulo span {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.paciente-foto-perfil {
+  width: 85px;
+  height: 85px;
+  margin-top: 15px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.paciente-menu {
+  text-align: center;
+  padding: 10px;
+}
+
+.paciente-menu-link {
+  display: flex;
+  align-items: center;
+  color: #333;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 9px 9px 9px 55px;
+}
+
+.paciente-menu-link:hover {
+  color: #0066aa;
+  background: aliceblue;
+}
+
+.paciente-menu-link-icon {
+  margin-right: 10px;
+}
+
+.paciente-menu-btn {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.paciente-menu-btn button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 20px;
+  background: #0066aa;
+}
