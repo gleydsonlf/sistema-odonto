@@ -46,10 +46,9 @@
 .app-interno-conteudo {
   padding-top: 40px;
   background: #f3f3f3;
-  min-height: 100vh;
   position: relative;
 }
-.titulo {
+.conteudo-titulo {
   position: fixed;
   top: 40px;
   width: 100%;
@@ -58,15 +57,37 @@
   background: #f3f3f3;
   font-size: 1rem;
   font-weight: 600;
+  z-index: 10;
 }
 
 .conteudo {
   margin: 45px 15px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 30px;
   background: white;
-  min-height: 100vh;
+  min-height: 85vh;
   margin-bottom: 15px;
+}
+
+.conteudo label {
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #999;
+}
+
+.conteudo input {
+  margin-bottom: 15px;
+}
+
+.conteudo input::placeholder {
+  opacity: 0.9;
+}
+
+.tabela {
+  text-align: center;
+  /* background: red; */
+  /* padding: 10px 0 5px 0; */
 }
 
 @media screen and (max-width: 992px) {
@@ -75,11 +96,11 @@
   }
 
   .app-interno-menu {
-    min-height: auto;
+    height: auto;
     padding: 10px 15px;
     background: red;
     margin: 0;
-    position: fixed;
+    position: relative;
     top: 40px;
     z-index: 10;
   }
