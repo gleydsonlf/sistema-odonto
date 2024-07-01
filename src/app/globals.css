@@ -80,6 +80,14 @@
   margin-bottom: 15px;
 }
 
+.teste input {
+  background: red !important;
+}
+
+InputMask {
+  background: red;
+}
+
 .conteudo input::placeholder {
   opacity: 0.9;
 }

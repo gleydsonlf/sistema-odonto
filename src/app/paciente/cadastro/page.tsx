@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import { Form } from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
 import "./cadastro.css";
+import { InputMask } from "@react-input/mask";
 
 function Cadastro() {
   return (

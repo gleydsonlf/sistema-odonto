@@ -1,0 +1,27 @@
+.principal-titulo {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #0066aa;
+  font-size: 0.8rem;
+  margin-bottom: 7px;
+}
+
+.principal-dados {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 7px;
+}
+
+.principal-linha {
+}
+
+.principal-dados-titulo {
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+.principal-dados-dado {
+}
